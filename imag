@@ -1,0 +1,4 @@
+curl -X POST-https://clipdrop-api.co/text-to-image/v1 \
+     -H 'x-API-key: YOUR_API_KEY' \
+     -F 'prompt=photograph of a cat surfing'
+     -o result.png
